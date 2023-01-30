@@ -21,6 +21,9 @@ const App = () => {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
+      <div>
+        <h2>What you are seeing is the skeleton for my site, currently building it out so check back later and see if anything has been added!</h2>
+      </div>
       <Footer />
     </Router>
   );

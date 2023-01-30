@@ -1,11 +1,10 @@
 import React from 'react';
 
-function Header(props) {
+const Header = () => {
 
     return (
       <header className="flex-row space-between px-1">
         <h1>jacknel</h1>
-        {props.children}
       </header>
     );
 }
