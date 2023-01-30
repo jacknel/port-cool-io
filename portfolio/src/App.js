@@ -2,12 +2,16 @@ import logo from './logo.svg';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Nav from './components/Nav';
+import Header from './components/Header';
 
 
 function App() {
   return (
     <div>
-      <Nav />
+      <Header>
+        <Nav />
+      </Header>
+      
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -25,7 +29,6 @@ function App() {
         </header>
       </div>
     </div>
-
   );
 }
 
